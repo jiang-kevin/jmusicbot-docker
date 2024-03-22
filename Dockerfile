@@ -8,4 +8,4 @@ COPY config.txt /apps/config.txt
 
 WORKDIR /apps
 
-ENTRYPOINT ["./start.sh"]
+ENTRYPOINT ["/apps/start.sh"]
